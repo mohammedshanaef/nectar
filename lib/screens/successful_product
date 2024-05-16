@@ -1,0 +1,51 @@
+// import 'package:flutter/material.dart';
+// import 'package:store_apps/widgets/custom_bottom.dart';
+
+
+// class SuccessfulProduct extends StatelessWidget {
+//   const SuccessfulProduct({super.key});
+
+//   @override
+//   Widget build(BuildContext context) {
+//     return Column(
+//       mainAxisAlignment: MainAxisAlignment.end,
+//       crossAxisAlignment: CrossAxisAlignment.stretch,
+//       children: [
+//         SvgPicture.asset('images/success.png'),
+//         const SizedBox(
+//           height: 65,
+//         ),
+//         const Text(
+//           'Your Order has been accepted',
+//           style: Styles.textStyle28,
+//           textAlign: TextAlign.center,
+//         ),
+//         const SizedBox(
+//           height: 4,
+//         ),
+//         Padding(
+//           padding: const EdgeInsets.symmetric(horizontal: 30),
+//           child: Text(
+//             'Your items has been placcd and is on it’s way to being processed',
+//             style: Styles.textStyle16.copyWith(color: const Color(0XFF7C7C7C)),
+//             textAlign: TextAlign.center,
+//           ),
+//         ),
+//         SizedBox(
+//           height: MediaQuery.of(context).size.height * .13,
+//         ),
+//         CustomButton(
+//           onPressed: () {},
+//           text: 'Track Order',
+//         ),
+//         CustomButton(
+//           onPressed: () {
+//           },
+//           text: 'Back to home',
+//           backgroundColor: Colors.white,
+//           textColor: Colors.black,
+//         ),
+//       ],
+//     );
+//   }
+// }
